@@ -1,0 +1,104 @@
+<html>
+  <head>
+    
+    <meta name="description" content="Slider Example">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+    
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Play|Roboto|VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Monoton|Sigmar+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One|Rye" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    
+
+    <!-- This is the title of the project -->
+    <title>popcorn popping on the...</title>
+    
+  </head>
+  <body>
+    
+    
+<!-- This is the container for the entire page (opening tag)-->    
+<div class="container">
+    
+    <!-- This is the container for the headline section -->
+    <div class="headline">
+      <br>
+        <span style="color: #592500	;font-size:24px; font-family: 'Cabin Sketch', cursive;">KERNEL</span>
+        <span style="color: #6CC9D0 ;font-size:24px;font-family: 'Rye', cursive;"> &#8594 </span>
+        <span style="color: #FFD400	;font-size:34px;font-family: 'Sigmar One', cursive;">POPCORN </span> 
+      <br><br> 
+    </div> <!-- Closing tag for the container for the headline section -->
+  
+    <br>
+  
+    <!-- This is the container for the description section -->
+    <div class="description">
+      <br>
+      <!-- This is the paragraph that is describing the timeline. It needs to include at least one clickable link. -->
+      Everyone knows that popcorn is a tasty snack, usually enjoyed while being entertained. But it is 
+      also entertaining <em>all by itself</em>. After watching <a href="https://www.youtube.com/watch?v=p_7Qi3mprKQ">this</a> video, I was inspired to figure out why 
+      exactly popcorn "pops". 
+      <br>
+      <br>
+      
+      <!-- This is the list -->
+      Here is what happens when you throw a bag of popcorn in the microwave: 
+      <ul>
+        <li> The water inside the kernel expands and turns to steam as the kernel heats up </li>
+        <li> Pressure inside the hull builds (to an astonishing 135 pounds per square inch!)</li>
+        <li> The kernel explodes!</li>
+        <li> The hot starch inside the kernel inflates and spills out, becoming as much as 50 times larger than its original size! </li>
+      </ul>
+      
+      <!-- These are the italicized instructions for the user, that describe how to use the slider -->
+      <p>
+        Use the slider to watch the popcorn grow!
+      </p>
+    </div> <!-- Closing tag for the container for the desciption section -->
+  
+    <br> <br>
+    
+    <!-- This is the container for the timeline section -->
+    <div class = "timeline">
+      <input onchange="timelineChanged()" id="timeline" type="range" min="0" max="4" value="0" step="1">
+      
+      <br>
+      
+      <h5 id="steptext" >
+        step 1
+      </h5>
+
+      <h2 id="headline">
+        It starts off a kernel.. 
+      </h2>
+
+      <img id="image" width="400px;" src="https://cdn.glitch.com/8b9a9f2f-9e5b-4869-b39a-fa57b8a92108%2Fpop1-removebg.png?1556151815238"/>
+
+      <p id="text">
+        awww so cute  
+      </p>
+    </div> <!-- Closing tag for the container for the timeline section -->
+    
+  
+  
+    <!-- This is the stuff for the glitch button -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  
+  
+  
+
+  </div> <!-- Closing tag for the container for the entire page -->
+    
+    
+  </body>
+</html>

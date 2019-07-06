@@ -1,2 +1,2 @@
-# Popcorn
+# popcorn popping on the...
 Project description: This was an assignment for an intro to web development coure I took at Arizona State University in the Spring of 2019. The goal of the project was to get used to basic html and css. We originally did the project inside of [glitch](https://glitch.com/), but I rewrote the code inside my own dev enviroment for practice. 
